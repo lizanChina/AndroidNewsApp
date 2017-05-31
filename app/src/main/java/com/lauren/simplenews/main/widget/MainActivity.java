@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity implements MainView {
 
     @Override
     public void switch2About() {
-        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new AboutFragment()).commit();
+//        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new AboutFragment()).commit();
         mToolbar.setTitle(R.string.navigation_about);
     }
 }
