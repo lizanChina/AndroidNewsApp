@@ -28,6 +28,7 @@ public class NewsModelImpl implements NewsModel {
         OkHttpUtils.ResultCallback<String> loadNewsCallback = new OkHttpUtils.ResultCallback<String>() {
             @Override
             public void onSuccess(String response) {
+
                 List<NewsBean> newsBeanList = NewsJsonUtils.readJsonNewsBeans(response, getID(type));
                 listener.onSuccess(newsBeanList);
             }
