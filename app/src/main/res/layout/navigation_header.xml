@@ -23,7 +23,7 @@
         android:layout_width="72dp"
         android:layout_height="72dp"
         android:layout_marginTop="20dp"
-        android:src="@mipmap/timg"
+        android:src="@mipmap/news1"
         app:border_color="@color/icons"
         app:border_width="1dp" />
 
